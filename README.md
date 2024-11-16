@@ -7,7 +7,7 @@ We provide LLM-oriented prompts in [prompts](./prompts) folder.
 
 # Usage
 
-[main.py](./main.py): Perform LLM-oriented prompt generation.
+[main.py](./Baseline/main.py): Perform LLM-oriented prompt generation.
 
 ## Synopsis
 ```
@@ -17,7 +17,7 @@ main.py [-h] [--output_folder OUTPUT_FOLDER] [--max-retries MAX_RETRIES] [--mode
 ```
 
 ## Description
-The [main.py](./main.py) script performs LLM evaluation and generates prompts.
+The [main.py](./Baseline/main.py) script performs LLM evaluation and generates prompts.
 
 ## Options
 ```

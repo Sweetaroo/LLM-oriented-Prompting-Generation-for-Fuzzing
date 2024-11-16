@@ -1,6 +1,6 @@
 import openai
 import os
-from Fuzz4All.model import Phi3, CodeQwen, DeepSeekCoder
+from Baseline.Fuzz4All.model import Phi3, CodeQwen, DeepSeekCoder
 import random
 import argparse 
 
