@@ -13,11 +13,7 @@ from Fuzz4All.model import make_model
 from Fuzz4All.util.api_request import create_config, request_engine
 from Fuzz4All.util.Logger import LEVEL, Logger
 from Fuzz4All.util.util import comment_remover
-#from Fuzz4All.target.Prompt import INITIAL_PROMPTS, BEST_PROMPT_STARCODER, BEST_PROMPT_DEEPSEEK, EVO_PROMPT
-#from Fuzz4All.target.IMPrompts import INITIAL_PROMPTS, BEST_PROMPT_STARCODER, BEST_PROMPT_DEEPSEEK, EVO_PROMPT
 from Fuzz4All.target.Phi3Prompt import INITIAL_PROMPTS, BEST_PROMPT_STARCODER, BEST_PROMPT_DEEPSEEK, MACRO_PROMPT
-#from Fuzz4All.target.CodeQwenPrompt import INITIAL_PROMPTS, BEST_PROMPT_STARCODER, EVO_PROMPT, BEST_PROMPT_DEEPSEEK
-#from Fuzz4All.target.DeepSeekPrompt import INITIAL_PROMPTS, BEST_PROMPT_STARCODER, BEST_PROMPT_DEEPSEEK, EVO_PROMPT
 
 class FResult(Enum):
     SAFE = 1  # validation returns okay
